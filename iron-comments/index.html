@@ -11,10 +11,27 @@
 </head>
 <body>
 
-    <form id="form-container">
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email"> 
-        Comment: Receive email updates? Submit
+    <form method="get" action="/some-url" id="form-container">
+        <fieldset class="no-border">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" name="name" id="name-form" class="name-field">
+        </fieldset>
+        <fieldset class="no-border">
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email-form" class="email-field"> 
+        </fieldset>
+        <fieldset class="no-border">
+            <label for="comments">Comment:</label>
+            <br>
+            <input type="text" name="comments" id="comments-form" class="comment-field">
+        </fieldset>
+        <fieldset class="no-border checkbox-agree">
+            <input type="checkbox" name="agreement" value="updates"> Receive email updates? 
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" class="button">
     </form>
 
 </body>

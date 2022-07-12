@@ -5,14 +5,57 @@ Light Blue:  rgb(67, 163, 230)
 Text: rgb(255,255,255)*/
 
 
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
+    background-color: rgb(25, 33, 41);
+    color: rgb(255,255,255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 #form-container {
     margin: auto;
+    text-align: left;
+    width: 250px;
+    border: 2px;
+    border-color: rgb(67,163,230);
+    border-style: solid;
+    padding: 30px 20px 30px 30px;
+}
+
+.no-border {
+    border: 0px;
+    padding-left: 0%;
+}
+
+.button {
+    background-color: rgb(67,163,230);
+    border-radius: 10%;
+    color: rgb(255,255,255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    }
+
+.checkbox-agree {
+    margin: 0%;
+    padding: 0%;
+    
+}
+.email-field {
+    margin-top: 10px;
+    padding-right: 40px;
+}
+.comment-field {
+    margin-top: 10px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+}
+
+.name-field {
+    margin-top: 10px;
+    padding-right: 40px;
 }
